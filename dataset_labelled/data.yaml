@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['forklift', 'human', 'objectofinterest']
+
+roboflow:
+  workspace: test-for-matrix
+  project: human-forklift-objects-full
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/test-for-matrix/human-forklift-objects-full/1
