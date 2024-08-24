@@ -8,4 +8,5 @@ model = YOLO(model_best_str)
 
 metrics = model.val(data=data_str, split='test')
 
+# Check precision, recall etc
 print(metrics.results_dict)
